@@ -1,4 +1,6 @@
-bst
-search_compare
-*.o
 *.exe
+*.obj
+*.o
+govids
+__pycache__/
+.tools/

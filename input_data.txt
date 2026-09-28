@@ -1,0 +1,21 @@
+INPUT DATA: Government identification numbers question
+
+The supplied assignment data is built into build_bst() in main.c.
+This file documents that input; the program does not read it from disk.
+Run govids without typing interactive input.
+
+Database order = BST insertion order (n = 8):
+A102, A25, A7, B100, B12, A120, B3, A45
+
+Ordering rule: strcmp / lexicographical (dictionary) order for
+letter-plus-digit IDs. Example: A102 < A120 < A25 because '1' < '2'
+at the second character. This is not numeric order.
+
+Search queries selected for comparison:
+1. A45
+2. B3
+3. A120
+
+BST search follows strcmp left/right links from the root.
+Linear search checks the database array from index 0.
+One comparison means comparing a query with one ID entry.

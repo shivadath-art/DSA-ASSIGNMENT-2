@@ -1,0 +1,15 @@
+GOVERNMENT ID DATABASE - BST INORDER TRAVERSAL
+Database order: A102, A25, A7, B100, B12, A120, B3, A45
+Inorder traversal: A102 A120 A25 A45 A7 B100 B12 B3
+(Inorder visits Left -> Root -> Right, giving strcmp-sorted order.)
+
+Tree height: 5 edges (6 levels)
+Longest root-to-leaf: A102 -> A25 -> A7 -> B100 -> B12 -> B3
+
+SEARCH COMPARISONS
+Target  Result           BST  Linear
+A45     Found              4       8
+B3      Found              6       7
+A120    Found              3       6
+
+One comparison means comparing the target with one ID entry.
