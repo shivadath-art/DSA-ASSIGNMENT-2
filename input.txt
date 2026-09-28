@@ -1,0 +1,7 @@
+Database order (n = 8):
+A102, A25, A7, B100, B12, A120, B3, A45
+
+Search targets (part b):
+A45, B3, A120
+
+Ordering rule: strcmp / lexicographical (dictionary) order.
